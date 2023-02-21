@@ -466,25 +466,39 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <label >
-           <span  class="modal-label"> Name </span> 
-          <input type="text" name="user-name" class="modal-input">
+          <label>
+            <span class="modal-label"> Name </span>
+            <input type="text" name="user-name" class="modal-input" required />
           </label>
-          <label><span class="modal-label">Tel</span >
-            <input type="tel" name="phone_number" class="modal-input"/></label >
-          <label><span class="modal-label">Email</span >
-            <input type="email" name="email" class="modal-input"></label>
+          <label
+            ><span class="modal-label">Tel</span>
+            <input type="tel" name="phone_number" class="modal-input" required
+          /></label>
+          <label
+            ><span class="modal-label">Email</span>
+            <input type="email" name="email" class="modal-input" required
+          /></label>
 
-          <label><span class="modal-label">Comment</span >
-            <input type="text" name="user-comment" placeholder="Text input" class="modal-input-comment"></label >
+          <label
+            ><span class="modal-label">Comment</span>
+            <textarea
+              class="modal-comment-textarea"
+              name="comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </label>
           <div class="modal-checkbox">
-            <input type="checkbox" name="agreement" value="">
-            <span class="modal-checkbox-text">I accept the terms and conditions of the </span> 
-            <a class="modal-checkbox-link" href="">Privacy Policy</a> 
-            </div>
-          <button class="modal-submit-button" type="submit"><span class="send-text">Send</span></button>
+            <input type="checkbox" name="agreement" value="" />
+            <span class="modal-checkbox-text"
+              >I accept the terms and conditions of the
+            </span>
+            <a class="modal-checkbox-link" href="">Privacy Policy</a>
+          </div>
+          <button class="modal-submit-button" type="submit">
+            <span class="send-text">Send</span>
+          </button>
         </form>
-
       </div>
     </div>
     <script src="./js/modal.js"></script>
