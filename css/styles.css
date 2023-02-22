@@ -446,6 +446,42 @@ body {
   background-color: #31D0AA;
 }
 
+
+
+.footer-subscribe {
+     text-align: start;
+    display: inline-block;
+    margin-left: 80px;}
+
+.footer-form {
+  margin-top: 16px;
+
+}
+
+.footer-email {
+  height: 40px;
+  width: 264px;
+  background-color: transparent;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+margin-right: 24px;}
+
+.footer-button {
+  display: inline-block;
+  padding: 8px 64px 8px 24px;
+  border: none;
+  background: #4D5AE5;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
 /* customers */
 .customer-sec {
   padding-top: 130px;
