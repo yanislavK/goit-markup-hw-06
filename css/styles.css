@@ -733,14 +733,36 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #757575;
+  display: flex;
+  align-items: end;
+  position: relative;
+}
+.modal-checkbox-text::before {
+  content: "";
+  border: 1.25px solid #2e2f42;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+.input-check {
+  display: none;
 }
 
+.input-check:checked + .modal-checkbox-text::before {
+  background-color: #404bbf;
+  background-image: url(../images/tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: #404bbf;
+}
 .modal-checkbox-link {
   color: #4d5ae5;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  margin-left: 7px;
 }
 
 .modal-submit-button {

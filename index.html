@@ -496,8 +496,7 @@
             <label class="modal-label" for="user-name">Tel</label>
             <div class="input-wrap">
               <input
-              
-              id="user-number"
+                id="user-name"
                 type="text"
                 name="user-name"
                 class="modal-input"
@@ -512,8 +511,7 @@
             <label class="modal-label" for="user-number">Tel</label>
             <div class="input-wrap">
               <input
-              
-              id="user-number"
+                id="user-number"
                 type="tel"
                 name="user-number"
                 class="modal-input"
@@ -527,11 +525,10 @@
             <label class="modal-label" for="user-email">Email</label>
             <div class="input-wrap">
               <input
-              id="user-email"
+                id="user-email"
                 type="email"
                 name="user-email"
                 class="modal-input"
-                
                 required
               />
               <svg class="modal-icon">
@@ -552,8 +549,18 @@
             ></textarea>
           </div>
           <div class="modal-checkbox">
-            <input type="checkbox" id="agreement" name="agreement" value="true" required />
-            <label for="agreement" class="modal-label">I accept the terms and conditions of the <a class="modal-checkbox-link" href="">Privacy Policy</a></label>
+            <input
+              class="input-check"
+              type="checkbox"
+              id="agreement"
+              name="agreement"
+              value="true"
+              required
+            />
+            <label for="agreement" class="modal-checkbox-text"
+              >I accept the terms and conditions of the
+              <a class="modal-checkbox-link" href="">Privacy Policy</a></label
+            >
             <!-- <span class="modal-checkbox-text"
               >I accept the terms and conditions of the
             </span>
