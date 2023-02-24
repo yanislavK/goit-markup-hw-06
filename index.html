@@ -496,6 +496,8 @@
             <label class="modal-label" for="user-name">Tel</label>
             <div class="input-wrap">
               <input
+              
+              id="user-number"
                 type="text"
                 name="user-name"
                 class="modal-input"
@@ -510,6 +512,8 @@
             <label class="modal-label" for="user-number">Tel</label>
             <div class="input-wrap">
               <input
+              
+              id="user-number"
                 type="tel"
                 name="user-number"
                 class="modal-input"
@@ -523,9 +527,11 @@
             <label class="modal-label" for="user-email">Email</label>
             <div class="input-wrap">
               <input
+              id="user-email"
                 type="email"
                 name="user-email"
                 class="modal-input"
+                
                 required
               />
               <svg class="modal-icon">
@@ -533,22 +539,25 @@
               </svg>
             </div>
           </div>
-          <label
-            ><span class="modal-label">Comment</span>
+
+          <div class="modal-field">
+            <label class="modal-label">Comment</label>
             <textarea
               class="modal-comment-textarea"
+              id="comment"
               name="comment"
               rows="5"
               required
               placeholder="Text input"
             ></textarea>
-          </label>
+          </div>
           <div class="modal-checkbox">
-            <input type="checkbox" name="agreement" value="" required />
-            <span class="modal-checkbox-text"
+            <input type="checkbox" id="agreement" name="agreement" value="true" required />
+            <label for="agreement" class="modal-label">I accept the terms and conditions of the <a class="modal-checkbox-link" href="">Privacy Policy</a></label>
+            <!-- <span class="modal-checkbox-text"
               >I accept the terms and conditions of the
             </span>
-            <a class="modal-checkbox-link" href="">Privacy Policy</a>
+            <a class="modal-checkbox-link" href="">Privacy Policy</a> -->
           </div>
           <button class="modal-submit-button" type="submit">
             <span class="send-text">Send</span>
