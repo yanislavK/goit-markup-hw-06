@@ -599,7 +599,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   border-radius: 4px;
-  padding:72px 24px 24px 24px;
+  padding: 72px 24px 24px 24px;
   transition: transform 250ms linear;
 }
 
@@ -719,7 +719,6 @@ body {
 .modal-comment-textarea:hover {
   outline: none;
   border-color: var(--action-color);
-  
 }
 
 .modal-input-comment::placeholder {
@@ -775,7 +774,6 @@ body {
 .modal-submit-button {
   display: block;
   margin: auto;
-
   padding: 16px 32px 16px 32px;
   align-items: center;
   text-align: center;
